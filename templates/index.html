@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition System</title>
+</head>
+<body>
+    <h1>Upload Photos for Face Detection and Recognition</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="preset">Upload Preset Photos:</label>
+        <input type="file" name="preset" id="preset" multiple><br><br>
+
+        <label for="target">Upload Target Photo:</label>
+        <input type="file" name="target" id="target"><br><br>
+
+        <input type="submit" value="Recognize">
+    </form>
+</body>
+</html>
+
